@@ -1,11 +1,17 @@
 def majority_element(nums):
-    candidate = None
+    element = None
     count = 0
-    for num in nums:
+    for i in nums:
         if count == 0:
-            candidate = num
-        count += (1 if num == candidate else -1)
+            element = i
+        if i == element:
+            count = count+1
+        else:
+            -1
 
-    return candidate
-arr = [2, 2, 1, 1, 1, 2, 2]
+
+    return element
+
+
+arr = [2,2,2,1,1,1,2,2,2,1,1]
 print(majority_element(arr))  
