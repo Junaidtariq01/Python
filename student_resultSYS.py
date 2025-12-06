@@ -8,7 +8,7 @@ x = (input("Enter the Name of student:"))
 #     "name"= x
 
 # p= Student()
-# print(p.name)
+
 
 
 
