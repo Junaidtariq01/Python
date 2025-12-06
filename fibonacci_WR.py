@@ -9,5 +9,5 @@ for i in range(n):
     b=fab
 
 print("Nth element of fab :", fab)
-
+print()
 
