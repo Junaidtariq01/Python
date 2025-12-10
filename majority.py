@@ -14,4 +14,4 @@ def majority_element(nums):
 
 
 arr = [2,2,2,1,1,1,2,2,2,1,1]
-print(majority_element(arr))  
+print(majority_element(arr))

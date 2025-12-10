@@ -1,4 +1,4 @@
-x = (input("Enter the Name of student:"))
+# x = (input("Enter the Name of student:"))
 # student={'Name':"junaid",
 #         "class":"3rd" , 
 #         "RollNo": 123 ,
@@ -20,7 +20,7 @@ class Person:
         self.sem = sem
         self.marks = marks
 
-p2 = Person('x',99,90)
+p2 = Person(name="junaid")
 print(p2.name)
 print(p2.age)
 print(p2.marks) 
