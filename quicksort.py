@@ -27,4 +27,4 @@ for i in range(n):
 print(arr)
 
 sortedArr = quicksort
-print("arrau in quick",sortedArr)
+print("arrau in quick",sortedArr)pp
